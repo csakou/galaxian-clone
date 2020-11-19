@@ -26,6 +26,11 @@ body {
     background-attachment: fixed;
 }
 
+button:active,
+button:focus {
+    outline: none;
+}
+
 #menu {
     position: fixed;
     top: 0;
