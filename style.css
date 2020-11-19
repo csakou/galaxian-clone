@@ -59,7 +59,7 @@ body {
     background: hsl(0, 0%, 20%);
     border: none;
     border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -69,11 +69,12 @@ body {
 
 .menu-item:hover {
     background: hsl(0, 0%, 30%);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
 .menu-item:active {
     background: hsl(0, 0%, 18%);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
 
 #background {
