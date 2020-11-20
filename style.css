@@ -106,10 +106,10 @@ button:focus {
 
 @keyframes backgroundScroll {
     from {background-position: 0 0;}
-    to {background-position: 0 -1000px;}
+    to {background-position: 0 1000px;}
 }
 
 @-webkit-keyframes backgroundScroll {
     from {background-position: 0 0;}
-    to {background-position: 0 -1000px;}
+    to {background-position: 0 1000px;}
 }
